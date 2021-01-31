@@ -150,3 +150,69 @@ nav {
         margin: 116px auto 185px;
     }
 }
+
+.reasons {
+    padding: 28px 0 64px;
+
+    .reasons_block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 26px;
+    }
+
+    .reasons_round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 116px;
+        height: 116px;
+        border-radius: 50%;
+        margin-right: 25px;
+
+        background: #1EACC7;
+    }
+
+    .reasons_descr {
+        width: 370px;
+    }
+
+    .reasons_subtitle {
+        font-size: 17px;
+        line-height: 21px;
+        color: #1EACC7;
+    }
+
+    .reasons_text {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 21px;
+
+        color: #202020;
+    }
+}
+
+.label {
+    width: 112px;
+    height: 24px;
+    background: #000000;
+    margin: 0 auto;
+    padding-top: 5px;
+
+    font-weight: 300;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.title {
+    margin-top: 33px;
+
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
