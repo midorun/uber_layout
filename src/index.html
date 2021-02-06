@@ -12,6 +12,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 
     <title>UBER</title>
@@ -19,8 +20,8 @@
 
 <body>
 
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="header__nav">
             <div class="container">
                 <ul class="menu">
                     <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
@@ -188,44 +189,219 @@
                 <div class="col-md-4">
                     <div class="mobile_item mobile_item_1">
                         <div class="mobile_subtitle">оформление заказа одним касанием</div>
-                        <div class="mobile_item_plus"><img src="icons/mobile_plus.png" alt=""></div>
+                        <div class="mobile_item_plus"></div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="mobile_item mobile_item_2">
                         <div class="mobile_subtitle">надежная подача</div>
-                        <div class="mobile_item_plus"><img src="icons/mobile_plus.png" alt=""></div>
+                        <div class="mobile_item_plus"></div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="mobile_item mobile_item_3">
                         <div class="mobile_subtitle">прозрачные цены</div>
-                        <div class="mobile_item_plus"><img src="icons/mobile_plus.png" alt=""></div>
+                        <div class="mobile_item_plus"></div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="mobile_item mobile_item_4">
                         <div class="mobile_subtitle">безналичная оплата</div>
-                        <div class="mobile_item_plus"><img src="icons/mobile_plus.png" alt=""></div>
+                        <div class="mobile_item_plus"></div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="mobile_item mobile_item_5">
                         <div class="mobile_subtitle">обратная связь</div>
-                        <div class="mobile_item_plus"><img src="icons/mobile_plus.png" alt=""></div>
+                        <div class="mobile_item_plus"></div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="mobile_item mobile_item_6">
                         <div class="mobile_subtitle">разделить стоимость поездки</div>
-                        <div class="mobile_item_plus"><img src="icons/mobile_plus.png" alt=""></div>
+                        <div class="mobile_item_plus"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="choice">
+        <div class="container">
+            <div class="dark-blue"></div>
+            <div class="label label_white">Возможности</div>
+            <div class="title title_white">Выбор - отличная штука!</div>
+            <div class="subtitle subtitle_white">
+                Закажите автомобиль, который подходит вам по стилю и бюджету
+            </div>
+            <img src="img/choice/Автомобиль.png" alt="" class="choice__img">
+            <div class="choice__descr">
+                Машины на каждый день. Лучше, быстрее и дешевле, чем такси
+            </div>
+        </div>
+    </section>
 
+    <section class="requirements">
+        <div class="container">
+            <div class="label">Возможности</div>
+            <div class="title">условия и требования</div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="requirement__block">
+                        <div class="requirements__title">УСЛОВИЯ: со своим авто:</div>
+                        <ul class="requirements__list">
+                            <li>Подключаем к системе UBER под 10%.</li>
+                            <li>Ни каких взносов 0%!</li>
+                            <li>
+                                Можем подключать удаленно без приезда в офис
+                            </li>
+                            <li>ИП не требуется</li>
+                            <li>
+                                Заказы распределяются без учета рейтинга ближайшим водителям
+                            </li>
+                            <li>Работа только по безналичному расчету</li>
+                            <li>
+                                Деньги перечисляем на карту водителю или наличными в офисе
+                            </li>
+                        </ul>
+                        <div class="requirements__payment">
+                            В день заработок составляет 7000-12000р + бонус 3000т рублей
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="requirements__block">
+                        <div class="requirements__title">
+                            УСЛОВИЯ: на авто компании:
+                        </div>
+                        <ul class="requirements__list">
+                            <li>Предоставляем авто без залога</li>
+                            <li>Без ежедневных выплат по аренде</li>
+                            <li>
+                                Среда пятница и суббота работа на компанию остальные дни вы работаете на себя
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="requirements__block requirements__block-red mb-0">
+                        <div class="requirements__title">ТРЕБОВАНИЕ:</div>
+                        <ul class="requirements__list">
+                            <li class="requirements__li">
+                                Наличие автомобиля без рекламы
+                            </li>
+                            <li class="requirements__li">
+                                Автомобиль не должен быть желтый и не с желтыми номерами
+                            </li>
+                            <li class="requirements__li">
+                                Машина не старше 3 лет
+                            </li>
+                            <li class="requirements__li">
+                                Стаж вождения не менее 3 лет
+                            </li>
+                            <li class="requirements__li">
+                                Девайс на системе андроид 4.0 и выше(самсунг)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="requirements__block requirements__block-red mb-0">
+                        <div class="requirements__title">ДОКУМЕНТЫ:</div>
+                        <ul class="requirements__list">
+                            <li class="requirements__li">Права 2 стороны</li>
+                            <li class="requirements__li">Паспорт лицевая сторона</li>
+                            <li class="requirements__li">СтС</li>
+                            <li class="requirements__li">Лицензия (если есть)</li>
+                            <li class="requirements__li">Номер телефона</li>
+                            <li class="requirements__li">
+                                Номер карты для перечисления денег(указать в письме)!
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="world">
+        <div class="container">
+            <div class="world__wrapper">
+                <div class="label label_white">города</div>
+                <div class="title title_white">по всему миру</div>
+                <div class="subtitle subtitle_white">Мы в вашем городе и по всему миру</div>
+                <a href="#" class="world__link">Посмотреть все города</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="divider"></div>
+        <div class="footer__wrapper">
+
+            <div>
+                <div class="footer__social">
+                    <a href="" class="footer__social_item">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="footer__social_item">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="footer__social_item">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="footer__social_item">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="footer__links">
+                    <div class="footer__links_main">
+                        <a href="#">
+                            На главную
+                        </a>
+                        <a href="#">
+                            города
+                        </a>
+                        <a href="#">
+                            для водителей
+                        </a>
+                    </div>
+                    <div class="footer__links_sub">
+                        <a href="#">
+                            центр поддержки
+                        </a>
+                        <a href="#">
+                            вакансии
+                        </a>
+                        <a href="#">
+                            разработчики
+                        </a>
+                        <a href="#">
+                            блог
+                        </a>
+                        <a href="#">
+                            о нас
+                        </a>
+                    </div>
+                    <a class="footer__links_lang">русский</a>
+                </div>
+            </div>
+            <div>
+                <div class="footer__mobile">
+                    <a href="#"><img src="img/footer/app_store.png" alt="" class="footer__mobile_img"></a>
+                    <a href="#"><img src="img/footer/google_play.png" alt="" class="footer__mobile_img"></a>
+                    <a href="#"><img src="img/footer/windows_store.png" alt="" class="footer__mobile_img"></a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </footer>
 </body>
 
 </html>
